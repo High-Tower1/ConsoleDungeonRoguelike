@@ -158,7 +158,7 @@ class Game:
 
     # Tutorial
     def intro(self):
-        print("<--- TERMINAL DUNGEON CRAWLING GAME --->\n")
+        print("<--- CONSOLE DUNGEON ROGUELIKE --->\n")
 
         input("Press enter to continue...\n")
         time.sleep(0.5)
