@@ -7,6 +7,10 @@ class GameState(Enum):
     LOSE = auto()
     QUIT = auto()
 
+class Turn(Enum):
+    Player = auto()
+    Enemy = auto()
+
 class Direction(Enum):
     UP = auto()
     DOWN = auto()
